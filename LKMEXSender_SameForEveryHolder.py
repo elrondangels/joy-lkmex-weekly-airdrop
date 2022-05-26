@@ -118,4 +118,4 @@ for _, row in eligible_holders.iterrows():
         sendLKMEX(owner, Account(address), airdrop_per_holder)
     except :
         # Keep those addresses aside for debugging, and re-sending after 
-        print(address)
+        print(address) 
